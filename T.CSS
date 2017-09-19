@@ -1,0 +1,9 @@
+body {
+  
+    background-image: url("spaghetti.gif");
+    background-color: #cccccc;
+    height: 50%; 
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
