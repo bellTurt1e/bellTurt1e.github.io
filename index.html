@@ -128,7 +128,7 @@ http://www.bellTurt1e.github.io
                 </div>                
             </section>
 
-            <!-- Section 5 -->
+             
             <section class="tm-section tm-section-contact" id="contact">
                 <div class="tm-page-content-width">
                     <div class="tm-bg-black-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact tm-content-box  tm-content-box-right">
@@ -152,57 +152,7 @@ http://www.bellTurt1e.github.io
         </div>
         
          
-        <script src="js/jquery-1.11.3.min.js"></script>          
-        <script src="https://www.atlasestate82468agents.co.uk/javascript/tether.min.js"></script>  
-        <script src="js/bootstrap.min.js"></script>              
-        <script src="js/jquery.singlePageNav.min.js"></script>   
-        
-        <script>     
-          
-             
-            function checkScrollPosition() {
-                
-                if($(window).width() < 767) {
-                    $(".tm-nav").removeClass("scroll");
-                    return;
-                }
-
-                if($(window).scrollTop() > 50) {
-                  $(".tm-nav").addClass("scroll");
-              } else {        
-                  $(".tm-nav").removeClass("scroll");
-              }
-            }
-
-            $(document).ready(function () {   
                  
-                $('.tm-nav').singlePageNav({
-                    offset: 57,
-                    filter: ':not(.external)',
-                    updateHash: true        
-                });
-
-                checkScrollPosition();
-
-                 
-                $('.navbar-toggle').click(function(){
-                    $('.main-menu').toggleClass('show');
-                });
-
-                $('.main-menu a').click(function(){
-                    $('.main-menu').removeClass('show');
-                });
-            });
-
-            $(window).on("scroll", function() {
-                checkScrollPosition();    
-            });
-
-            $('#tmNavbar a').click(function(){
-                $('#tmNavbar').collapse('hide');
-            });
-
-        </script>             
 
 </body>
 </html>
