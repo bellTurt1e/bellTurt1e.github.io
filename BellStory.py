@@ -15,7 +15,7 @@ def second_choice():
 def deny():
     time.sleep(1)
     print("GTFO don't even come back to this computer you scrub")
-    
+    input("Enter any key to leave scrub")
 def opened():
     time.sleep(1)
     print("Your square only makes 10,000 shells due to every other turtle being able to make fire squares")
@@ -49,13 +49,15 @@ def rip():
 def end():
     time.sleep(1)
     print("You become the most fire shape maker in all of the pond and you become the number 1 fire shape maker..... you see your archrival and you bump shoulders... ehe then disrespects your fire shapes and YOU GET INTO A SHELL FIGHT!")
+    input("Enter any key to leave scrub")
 def thug_life():
     time.sleep(1)
     print("You shell him up so bad he goes away for ever and quits the shell game and you come back and create a new genre called gangster shape fire which takes off and you become the under ground fire shape maker. You also adopt a new name... Yurtle The Turtle. THUG_LIFE ending ")
+    input("Enter any key to leave scrub")
 def cat():
     time.sleep(1)
     print("You let him walk by and you life flashed by you and you die of all shellcain you did back in the day.")
-
+    input("Enter any key to leave scrub")
 x = greeting()
 if x=="yes":
 
